@@ -1,7 +1,5 @@
 # EyeTracking
 
-## Klasifikacija stanja oka
-
 [Stanje_oka](https://colab.research.google.com/drive/1_KmCE6GkrR-sWXHElekeMOgPhUYlYm7U#scrollTo=tuv3sUVCRzt0) - *moja skripta*
 
 [Gaze_parts](https://colab.research.google.com/drive/1_KmCE6GkrR-sWXHElekeMOgPhUYlYm7U#scrollTo=tuv3sUVCRzt0)  - *moja skripta temeljna na postojećoj*
