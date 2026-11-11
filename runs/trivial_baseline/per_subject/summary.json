@@ -1,0 +1,26 @@
+{
+  "mean_angle": 6.176409284741905,
+  "std_angle": 4.805997327679002,
+  "median_angle": 5.05880765385842,
+  "p95_angle": 16.063187883961813,
+  "num_subjects": 11,
+  "num_samples": 79964,
+  "per_subject_mean_angle": {
+    "DikablisSA_13": 8.954334574814007,
+    "DikablisSA_22": 8.95202492693749,
+    "DikablisSA_23": 6.97787598708024,
+    "DikablisSA_26": 9.768805879145965,
+    "DikablisSA_36": 5.073151751072743,
+    "DikablisSA_4": 4.978500909942151,
+    "DikablisSA_8": 6.8121998418017045,
+    "DikablisT_1": 3.6254154128547316,
+    "DikablisT_15": 5.655271151603857,
+    "DikablisT_27": 4.724060133466573,
+    "DikablisT_7": 8.1016652222209
+  },
+  "baseline_type": "per_subject",
+  "num_test_samples_with_global_fallback": 79964,
+  "num_test_subjects_with_global_fallback": 11,
+  "train_subjects_with_near_zero_mean": [],
+  "note": "Cheating baseline: koristi subject_id; stvarni model ga ne koristi. Sredine se računaju samo iz TRAIN skupa."
+}

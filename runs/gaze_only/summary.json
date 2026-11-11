@@ -1,0 +1,103 @@
+{
+  "config": {
+    "model": "gaze_only",
+    "architecture": "MobileNetV3Small + GAP + Dense(256) + Dropout(0.3) + Dense(3) + L2",
+    "loss": "1 - cosine_similarity",
+    "metric_unit": "degrees",
+    "dataset": "/home/fipulab/anastazija/TEyeD_preprocessed/128x128_stride10_q4_seg_pupil-iris-lid_2D"
+  },
+  "seeds": [
+    7,
+    13,
+    42,
+    123,
+    2024
+  ],
+  "mean_angle_error_mean": 6.447130842680252,
+  "mean_angle_error_std": 0.08440202760566615,
+  "per_seed": {
+    "42": {
+      "mean_angle_error": 6.469922118330432,
+      "std_angle_error": 4.89478703991309,
+      "num_subjects": 11
+    },
+    "123": {
+      "mean_angle_error": 6.465830033383592,
+      "std_angle_error": 4.881348851847428,
+      "num_subjects": 11
+    },
+    "2024": {
+      "mean_angle_error": 6.494274063837748,
+      "std_angle_error": 4.8942073569469855,
+      "num_subjects": 11
+    },
+    "7": {
+      "mean_angle_error": 6.299191466396672,
+      "std_angle_error": 4.852647635726494,
+      "num_subjects": 11
+    },
+    "13": {
+      "mean_angle_error": 6.506436531452821,
+      "std_angle_error": 4.89922549236223,
+      "num_subjects": 11
+    }
+  },
+  "per_subject_mean_angle_error": {
+    "DikablisSA_13": {
+      "mean_angle_error_mean": 9.266989337856371,
+      "mean_angle_error_std": 0.10957904820308956,
+      "n_seeds": 5
+    },
+    "DikablisSA_22": {
+      "mean_angle_error_mean": 9.595782449087725,
+      "mean_angle_error_std": 0.16336013024680787,
+      "n_seeds": 5
+    },
+    "DikablisSA_23": {
+      "mean_angle_error_mean": 7.643288721669004,
+      "mean_angle_error_std": 0.16567864801111098,
+      "n_seeds": 5
+    },
+    "DikablisSA_26": {
+      "mean_angle_error_mean": 8.84303754572037,
+      "mean_angle_error_std": 0.21837592419175275,
+      "n_seeds": 5
+    },
+    "DikablisSA_36": {
+      "mean_angle_error_mean": 4.585884193132765,
+      "mean_angle_error_std": 0.0964062778419567,
+      "n_seeds": 5
+    },
+    "DikablisSA_4": {
+      "mean_angle_error_mean": 5.45002461120009,
+      "mean_angle_error_std": 0.16502097522100148,
+      "n_seeds": 5
+    },
+    "DikablisSA_8": {
+      "mean_angle_error_mean": 7.541681757260219,
+      "mean_angle_error_std": 0.18004123669326585,
+      "n_seeds": 5
+    },
+    "DikablisT_1": {
+      "mean_angle_error_mean": 3.5281835429573705,
+      "mean_angle_error_std": 0.07707515376938281,
+      "n_seeds": 5
+    },
+    "DikablisT_15": {
+      "mean_angle_error_mean": 5.810746626252731,
+      "mean_angle_error_std": 0.1400209415237173,
+      "n_seeds": 5
+    },
+    "DikablisT_27": {
+      "mean_angle_error_mean": 5.1941393447088355,
+      "mean_angle_error_std": 0.15805138322567364,
+      "n_seeds": 5
+    },
+    "DikablisT_7": {
+      "mean_angle_error_mean": 8.89966015740732,
+      "mean_angle_error_std": 0.2229994507885807,
+      "n_seeds": 5
+    }
+  },
+  "num_subjects_test": 11
+}
