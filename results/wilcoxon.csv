@@ -1,0 +1,13 @@
+comparison,seed,statistic,p_value,n_subjects,cohens_d,cohens_d_interpretation,level
+mtl_full_vs_gaze_only,42,3.0,0.0048828125,11,-1.4274603487267046,velika,per_seed
+mtl_full_vs_gaze_only,123,1.0,0.001953125,11,-1.6078624582264949,velika,per_seed
+mtl_full_vs_gaze_only,2024,4.0,0.0068359375,11,-1.3269675523069429,velika,per_seed
+mtl_full_vs_gaze_only,pooled_subject,3.0,0.0048828125,11,-1.468899007374423,velika,across_seeds
+mtl_wseg0_vs_gaze_only,42,4.0,0.0068359375,11,-1.2426825007447622,velika,per_seed
+mtl_wseg0_vs_gaze_only,123,2.0,0.0029296875,11,-1.5354567780278634,velika,per_seed
+mtl_wseg0_vs_gaze_only,2024,1.0,0.001953125,11,-1.8015547315961669,velika,per_seed
+mtl_wseg0_vs_gaze_only,pooled_subject,2.0,0.0029296875,11,-1.5368682599959786,velika,across_seeds
+mtl_pupil_vs_gaze_only,42,1.0,0.001953125,11,-1.6447956887788915,velika,per_seed
+mtl_pupil_vs_gaze_only,123,3.0,0.0048828125,11,-1.295343756673679,velika,per_seed
+mtl_pupil_vs_gaze_only,2024,1.0,0.001953125,11,-1.5102304291438755,velika,per_seed
+mtl_pupil_vs_gaze_only,pooled_subject,2.0,0.0029296875,11,-1.508309323522351,velika,across_seeds

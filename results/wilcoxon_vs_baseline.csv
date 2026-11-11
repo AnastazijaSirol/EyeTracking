@@ -1,0 +1,4 @@
+comparison,seed,statistic,p_value,n_subjects,cohens_d,cohens_d_interpretation,level
+best_mtl_vs_trivial_global,2024,4.0,0.0068359375,11,-1.187133936957574,velika,per_seed
+gaze_only_vs_trivial_global,7,20.0,0.2783203125,11,0.3499251627945807,srednja,per_seed
+best_mtl_vs_gaze_only,2024,4.0,0.0068359375,11,-1.2365060277799225,velika,per_seed

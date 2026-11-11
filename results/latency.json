@@ -1,0 +1,79 @@
+{
+  "batch_size": 1,
+  "input_shape": [
+    128,
+    128,
+    3
+  ],
+  "measurement_note": "CPU mjerenja izvedena unutar GPU sesije preko tf.device('/CPU:0'); nije ekvivalentno čistom CPU-only procesu.",
+  "models": {
+    "mtl_full/seed_42": {
+      "gpu_model_only": {
+        "mean_ms": 12.277126512723044,
+        "std_ms": 0.8383013983722527,
+        "median_ms": 12.832261039875448,
+        "p95_ms": 13.026898528914899,
+        "fps": 77.9285892714123,
+        "n_measurements": 1000
+      },
+      "gpu_end_to_end": {
+        "mean_ms": 13.534577505779453,
+        "std_ms": 0.29890587231151455,
+        "median_ms": 13.502160436473787,
+        "p95_ms": 14.385472232243044,
+        "fps": 74.06222172406353,
+        "n_measurements": 200
+      },
+      "cpu_model_only": {
+        "mean_ms": 143.4136725915596,
+        "std_ms": 14.758434917737778,
+        "median_ms": 148.23716098908335,
+        "p95_ms": 163.42741427361034,
+        "fps": 6.745946787753464,
+        "n_measurements": 200
+      },
+      "cpu_end_to_end": {
+        "mean_ms": 141.60544886952266,
+        "std_ms": 14.270057618620951,
+        "median_ms": 145.63528151484206,
+        "p95_ms": 158.9137491013389,
+        "fps": 6.866467998677144,
+        "n_measurements": 100
+      }
+    },
+    "gaze_only/seed_42": {
+      "gpu_model_only": {
+        "mean_ms": 8.86616240569856,
+        "std_ms": 1.7657724459650403,
+        "median_ms": 10.065680544357747,
+        "p95_ms": 10.196981579065323,
+        "fps": 99.34748034106285,
+        "n_measurements": 1000
+      },
+      "gpu_end_to_end": {
+        "mean_ms": 11.897918776376173,
+        "std_ms": 0.22889128115526508,
+        "median_ms": 11.846224020700902,
+        "p95_ms": 11.991833511274308,
+        "fps": 84.4150843553635,
+        "n_measurements": 200
+      },
+      "cpu_model_only": {
+        "mean_ms": 106.12267711374443,
+        "std_ms": 15.635884963528762,
+        "median_ms": 113.08939795708284,
+        "p95_ms": 122.80246776645072,
+        "fps": 8.842561885239656,
+        "n_measurements": 200
+      },
+      "cpu_end_to_end": {
+        "mean_ms": 114.95272426167503,
+        "std_ms": 6.888290162373239,
+        "median_ms": 113.75657649477944,
+        "p95_ms": 124.34886538540013,
+        "fps": 8.790700553878679,
+        "n_measurements": 100
+      }
+    }
+  }
+}
